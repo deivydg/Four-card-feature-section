@@ -1,0 +1,154 @@
+*{font-family: 'Karla', sans-serif;
+ 
+}
+
+.text-title{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  color: #474A5B;
+  
+}
+
+.principal-text{
+  font-size: 20px;
+}
+
+.text-ajuste{
+  color: #A4A4A6;
+  top: -20px;
+}
+
+.text-title-ajuste{
+  position: relative;
+  font-size: 35px;
+  top: -20px;
+}
+
+.card-container{
+  top: 40px;
+  position: relative;
+}
+
+.color-bar1{
+  position: relative;
+  top: -30px;
+  left: -30px;
+  width: 340px;
+  height: 10px; 
+  background-color: #EE5252; 
+  border-radius: 8px 8px 0 0; 
+}
+
+.img-team-builder{
+  position: relative;
+  left: 215px;
+  top: 5px;
+}
+
+.team-builder{
+  
+  position: relative;
+  background-color: white;
+  width: 280px;
+  padding: 30px;
+  margin: auto;
+  height: 200px;
+  border-radius: 8px 8px 8px 8px; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-builder, p, h2{
+  position: relative;
+  top: -30px;
+  color: #474A5B;
+}
+
+.color-karma{
+  background-color: #FDAE4A;
+}
+
+.img-karma{
+  position: relative;
+  left: 220px;
+  top: 5px;
+}
+
+.karma{
+  position:relative;
+  background-color: white;
+  width: 280px;
+  padding: 30px;
+  height: 200px;
+  margin: auto;
+  top: 0px;
+  border-radius: 8px 8px 8px 8px; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.color-calculator{
+  background-color:#529EF2 ;
+}
+
+.img-calculator{
+  position: relative;
+  left: 185px;
+  top: 5px;
+}
+
+.calculator{
+  background-color: white;
+  position: relative;
+  width: 280px;
+  padding: 30px;
+  height: 200px;
+  margin:auto;
+  left: 370px;
+  top: -399px;
+  border-radius: 8px 8px 8px 8px; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.color-supervisor{
+  background-color:#41D4D2 ;
+}
+
+.img-supervisor{
+  position: relative;
+  left: 185px;
+  top: 5px;
+}
+
+.supervisor{
+  background-color:white ;
+  position:relative;
+  width: 280px;
+  padding: 30px;
+  height: 200px;
+  left: 130px;
+  border-radius: 8px 8px 8px 8px; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
+  top: -660px;
+}
+
+.color-target-text, p{
+  color:#A4A4A6;
+}
+
+@media screen and (max-width: 800px) {
+
+  .card-container{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .team-builder, .karma, .calculator, .supervisor{
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+}
